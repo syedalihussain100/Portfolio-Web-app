@@ -1,10 +1,17 @@
+
+import React from 'react'
+
 import React from 'react';
 import Typical from 'react-typical'
+
 
 
 function Home() {
     return (
         <div>
+
+       <h1>Hello Home</h1>      
+
             <h1>This is H1 components</h1>
             <p style={{ textAlign: 'center', fontSize: '30px', color: 'red' }}> <span style={{ color: 'black' }}>I'm a </span>
                 <Typical
@@ -24,6 +31,7 @@ function Home() {
                     ]}
                 />
             </p>
+
         </div>
     )
 }
