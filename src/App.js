@@ -10,19 +10,10 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 
 
-function App() {
-  return (
-    
-import Nav from './components/navbar/Navbar';
-import About from './components/navbar/About';
-import Portfolio from './components/navbar/Portfolio';
-import Home from './components/navbar/Home';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -31,7 +22,6 @@ function App() {
       <div className="App">
         <Switch>
           <Route path='/about'>
-
             <Navbar />
             <About />
           </Route>
@@ -53,17 +43,6 @@ function App() {
 
           <Route path='/'>
             <Navbar />
-
-            <Nav />
-            <About />
-          </Route>
-          <Route path='/portfolio'>
-            <Nav />
-            <Portfolio />
-          </Route>
-          <Route path='/'>
-            <Nav />
-
             <Home />
           </Route>
         </Switch>
@@ -71,4 +50,5 @@ function App() {
     </Router>
   );
 }
+
 export default App
