@@ -1,11 +1,11 @@
 import './App.css';
 
-import Navbar from './components/navbar/Navbar';
-import Home from './components/navbar/Home';
-import About from './components/navbar/About';
-import Service from './components/navbar/service';
-import Projects from './components/navbar/projects';
-import Contact from './components/navbar/contact';
+import Navbar from './navbar/Navbar';
+import Home from './navbar/Home';
+import About from './navbar/About';
+import Service from './navbar/service';
+import Projects from './navbar/projects';
+import Contact from './navbar/contact';
 import {
   BrowserRouter as Router,
   Switch,
