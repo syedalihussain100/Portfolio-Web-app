@@ -12,7 +12,6 @@ import {
   Route,
 } from "react-router-dom";
 
-
 function App() {
   const [loader, setLoader] = useState(false);
 
@@ -23,14 +22,15 @@ function App() {
     }, 3000);
   }, [])
   return (
-
     <Router>
       <div className="App">
         {loader ?
           (
             <div className='mainLoading'>
               <HashLoader color={'6638D3'}
-                loading={loader} size={100} /></div>
+                loading={loader} size={100} />
+                
+                </div>
           )
           :
           <Switch>

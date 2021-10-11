@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import About from '../components/about/About'
 
 function Prtfolio() {
     return (
         <div>
-            <h1>Hello Projects</h1>
+         <About/>
         </div>
     )
 }
